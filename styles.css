@@ -30,17 +30,6 @@ h1 {
     height: 50px;
 }
 
-h2 {
-    position: absolute;
-    top: 42%;
-    left: 39%;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 50px;
-    width: 3000px;
-    height: 50px;
-}
-
 .input-from {
     position: absolute;
     width: 342px;
@@ -134,20 +123,66 @@ cursor:active {
     }
 
     h1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+
         position: absolute;
-        top: 55%;
-        margin: 0 auto;
+        top: 53%;
+        left: 9%;
         color: rgb(11, 9, 12);
         font-style: normal;
         font-size: 55px;
-        line-height: 20px;
-        width: 200px;
+        line-height: 40px;
         height: 15px;
-
     }
 
+    button {
+        position: absolute;
+        width: 342px;
+        height: 72px;
+        top: 65%;
+        left: 9%;
+        background: #AEC346;
+        box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 2px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+    .input-from {
+        position: absolute;
+        width: 342px;
+        height: 74px;
+        left: 9%;
+        top: 75%;
+        background: black;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 14px;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: black;
+        opacity: 0.7;
+        padding: 35px;
+    }
+
+    .input-to {
+        position: absolute;
+        width: 342px;
+        height: 74px;
+        left: 9%;
+        top: 85%;
+        background: black;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 14px;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 47px;
+        color: black;
+        opacity: 0.7;
+        padding: 35px;
+    }
 
 }
