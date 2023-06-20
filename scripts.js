@@ -1,7 +1,15 @@
 
-const drawButton = document.getElementsByClassName("draw-button")
-const inputFrom = document.getElementsByClassName("input-from")
-const inputTo = document.getElementsByClassName("input-to")
+const drawButton = document.querySelector(".draw-button")
 
-drawButton.addEventListener("click", generateRandom)
+
+drawButton.addEventListener("click", generagetRandom)
+
+function generagetRandom(min, max) {
+    const inputFrom = document.querySelector(".input-from").value
+    const inputTo = document.querySelector(".input-to").value
+
+    min = Math.ceil(inputFrom)
+    max = Math.floor(inputTo)
+    alert(Math.floor(Math.random() * (max - min + 1)) + min)
+}
 

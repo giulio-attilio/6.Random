@@ -41,7 +41,7 @@ h2 {
     height: 50px;
 }
 
-#input-from {
+.input-from {
     position: absolute;
     width: 342px;
     height: 74px;
@@ -58,11 +58,11 @@ h2 {
     padding: 35px;
 }
 
-#input-to {
+.input-to {
     position: absolute;
     width: 342px;
     height: 74px;
-    right: 620px;
+    right: 630px;
     top: 525px;
     background: rgba(255, 255, 255, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -79,12 +79,29 @@ input::placeholder {
     color: white;
 }
 
+.input-result {
+    position: absolute;
+    width: 342px;
+    height: 74px;
+    left: 820px;
+    top: 680px;
+    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 35px;
+}
+
 button {
     position: absolute;
     width: 342px;
     height: 72px;
-    left: 820px;
-    top: 680px;
+    top: 42%;
+    left: 40%;
     background: #AEC346;
     box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
     border-radius: 20px;
@@ -104,3 +121,33 @@ cursor:active {
     opacity: 0.3;
 }
 
+@media screen and (max-width: 450px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 55%;
+        margin: 0 auto;
+        color: rgb(11, 9, 12);
+        font-style: normal;
+        font-size: 55px;
+        line-height: 20px;
+        width: 200px;
+        height: 15px;
+
+    }
+
+
+}
