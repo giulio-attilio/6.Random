@@ -135,7 +135,7 @@ cursor:active {
         flex-direction: row;
         justify-content: center;
         position: absolute;
-        top: 45%;
+        top: 45vh;
         left: auto;
         color: rgb(11, 9, 12);
         font-style: normal;
@@ -155,7 +155,7 @@ cursor:active {
         width: 90%;
         height: 70px;
         left: auto;
-        top: 55%;
+        top: 55vh;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 14px;
@@ -177,7 +177,7 @@ cursor:active {
         width: 90%;
         height: 70px;
         right: auto;
-        top: 67%;
+        top: 67vh;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 14px;
@@ -198,7 +198,7 @@ cursor:active {
         position: absolute;
         width: 90%;
         height: 70px;
-        top: 80%;
+        top: 80vh;
         left: auto;
         background: #AEC346;
         box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
