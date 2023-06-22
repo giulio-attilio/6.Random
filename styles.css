@@ -119,7 +119,7 @@ cursor:active {
 
     main {
         width: 100vw;
-        height: 50vh;
+        height: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -127,7 +127,7 @@ cursor:active {
 
     img {
         width: 100vw;
-        height: 50vh;
+        height: 50%;
     }
 
     h1 {
