@@ -146,28 +146,6 @@ cursor:active {
         margin-bottom: 5px;
     }
 
-    button {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        width: 90%;
-        height: 70px;
-        top: 55%;
-        left: auto;
-        background: #AEC346;
-        box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
-        border-radius: 20px;
-        font-weight: 700;
-        font-size: 45px;
-        line-height: 2px;
-        text-align: center;
-        color: #FFFFFF;
-        cursor: pointer;
-        margin-bottom: 5px;
-    }
-
     .input-from {
         display: flex;
         flex-direction: row;
@@ -177,7 +155,7 @@ cursor:active {
         width: 90%;
         height: 70px;
         left: auto;
-        top: 67%;
+        top: 55%;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 14px;
@@ -199,7 +177,7 @@ cursor:active {
         width: 90%;
         height: 70px;
         right: auto;
-        top: 79%;
+        top: 67%;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
         border-radius: 14px;
@@ -209,6 +187,28 @@ cursor:active {
         color: white;
         opacity: 0.7;
         padding: 35px;
+        margin-bottom: 5px;
+    }
+
+    button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 90%;
+        height: 70px;
+        top: 80%;
+        left: auto;
+        background: #AEC346;
+        box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+        border-radius: 20px;
+        font-weight: 700;
+        font-size: 45px;
+        line-height: 2px;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
         margin-bottom: 5px;
     }
 
