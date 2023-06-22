@@ -125,12 +125,6 @@ cursor:active {
         height: 100vh;
     }
 
-    img {
-        src: ./assets/dices-img.jpg;
-        width: 100vw;
-        height: 40%;
-    }
-
     .cassino-image {
         display: none;
     }
