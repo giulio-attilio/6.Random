@@ -131,6 +131,8 @@ cursor:active {
 
     .dices-image {
         display: block;
+        width: 100vw;
+        height: 40vh;
     }
 
     main {
