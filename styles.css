@@ -113,37 +113,49 @@ cursor:active {
 @media screen and (max-width: 450px) {
 
     body {
-        width: 100%;
-        height: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 
     main {
         width: 100vw;
-        height: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     img {
         width: 100vw;
-        height: 50%;
+        height: 50vh;
     }
 
     h1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         position: absolute;
         top: 55%;
-        left: 9%;
+        left: auto;
         color: rgb(11, 9, 12);
         font-style: normal;
-        font-size: 58px;
+        font-size: 50px;
         line-height: 40px;
         height: 10px;
+        width: 90%;
+        margin-top: 10%;
     }
 
     button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         width: 90%;
         height: 70px;
         top: 65%;
-        left: 9%;
+        left: auto;
         background: #AEC346;
         box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
         border-radius: 20px;
@@ -156,10 +168,14 @@ cursor:active {
     }
 
     .input-from {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         width: 90%;
         height: 70px;
-        left: 9%;
+        left: auto;
         top: 75%;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
@@ -167,16 +183,20 @@ cursor:active {
         font-weight: 500;
         font-size: 40px;
         line-height: 47px;
-        color: black;
+        color: white;
         opacity: 0.7;
         padding: 35px;
     }
 
     .input-to {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         width: 90%;
         height: 70px;
-        left: 9%;
+        right: auto;
         top: 85%;
         background: black;
         border: 1px solid rgba(255, 255, 255, 0.2);
@@ -184,7 +204,7 @@ cursor:active {
         font-weight: 500;
         font-size: 40px;
         line-height: 47px;
-        color: black;
+        color: white;
         opacity: 0.7;
         padding: 35px;
     }
