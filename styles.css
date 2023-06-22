@@ -16,6 +16,14 @@ img {
     height: 100vh;
 }
 
+.cassino-image {
+    display: block;
+}
+
+.dices-image {
+    display: none;
+}
+
 h1 {
     display: block;
     position: absolute;
@@ -51,7 +59,7 @@ h1 {
     position: absolute;
     width: 342px;
     height: 74px;
-    right: 630px;
+    right: 635px;
     top: 525px;
     background: rgba(255, 255, 255, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -118,8 +126,17 @@ cursor:active {
     }
 
     img {
+        src: ./assets/dices-img.jpg;
         width: 100vw;
         height: 40%;
+    }
+
+    .cassino-image {
+        display: none;
+    }
+
+    .dices-image {
+        display: block;
     }
 
     main {
