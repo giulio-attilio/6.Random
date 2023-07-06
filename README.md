@@ -12,7 +12,7 @@ Technologies:
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="java-script-logo">
 <br> 
-https://giulio-attilio.github.io/Random/
+https://giulio-attilio.github.io/6.Random/
 <br>
 <br>
 <img src="https://github.com/giulio-attilio/Random/blob/main/assets/Finished.jpg?raw=true">
